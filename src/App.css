@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  
+}
+
+
+
+
+
+
+
+
+.app__login {
+  display: flex;
+  flex-direction: column;
+}
+
+

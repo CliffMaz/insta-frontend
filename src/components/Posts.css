@@ -1,0 +1,39 @@
+
+.posts{
+  display:flex;
+  flex-direction: row;
+  overflow: hidden;
+  
+}
+.app__posts {
+  width:70vh;
+    padding-left: 20%;
+    padding-top: 70px;
+    padding-right: 25%;
+    
+    overflow-y:auto;
+  }
+.app__postsRight{
+  width: 30vw;
+  height: 30vh;
+  overflow-y: hidden;
+  position:fixed;
+  right: 0px;
+  top:80px;
+  margin:80px;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+
+
+  @media screen and (max-width: 480px) {
+    .app__posts {
+      padding-left: 2px;
+      padding-top: 20px;
+      padding-right: 2px;
+      overflow-y: initial;
+    }
+  
+   
+  }

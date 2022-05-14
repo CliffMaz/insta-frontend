@@ -1,0 +1,12 @@
+.header{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.user__posts{
+
+    padding-top: 100px;
+
+}

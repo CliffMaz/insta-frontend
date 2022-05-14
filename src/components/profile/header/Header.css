@@ -1,0 +1,45 @@
+
+
+* {
+    margin: 0;
+  }
+
+.profile{
+    padding-top: 80px;
+    height: 30vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.profile__avatar{
+    width: 50px;
+    margin-right: 170px;
+
+}
+
+.profile__avatar img{
+    border-radius: 50%;
+}
+
+.pro__name{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.profile__username{
+    display: flex;
+    
+    font-size: 20px;
+}
+
+.follow__{
+    padding-top: 20px;
+}
+
+.follow_info{
+    padding: 20px 10px ;
+
+}
